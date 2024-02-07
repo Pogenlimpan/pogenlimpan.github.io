@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+*{
+       margin: 0px;
+       padding: 0px;
+       box-sizing: border-box;
+       font-family: 'Abril Fatface';
+}
+body {
+
+       background-color: black;
+}
+
+nav {
+       display: inline;
+       width: 70%;
+       height: 35px;
+       line-height: 75px;
+       padding: 0px 200px;
+       position: fixed;
+       margin-left: 350px;
+       margin-top: 5px;
+}
+
+.logo {
+       font-size: 45px;
+       font-weight: bold;
+       color: white;
+       text-transform: uppercase;´
+       letter-spacing: 1.5px;
+       cursor: pointer;
+
+       display: inline;
+}
+.logobild {
+       width: 150px;
+       margin-top: 25px;
+       margin-left: 20px;
+}
+.tabs{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       flex-wrap: wrap;
+       list-style: none;
+       
+}
+
+.header {
+       background-image: linear-gradient(red, rgb(255, 0, 0)); 
+}
+
+.tabs li a 
+{
+       font-family:'Abril Fatface';
+       color: rgb(0, 0, 0);
+       text-decoration: none;
+       padding-left: 3px;
+       padding-right: 3px;
+       border-radius: 50px;
+       /* background-color: gray; */
+       border: 1.8px solid rgb(0, 0, 0);
+       padding: 3px 10px;
+}
+.mainbild {
+
+align-items: center;
+justify-content: center;
+display: flex;
+display: block;
+width: 100vw;
+position: fixed;
+z-index: -1;
+margin-top: -100px;
+background-color: black;
+opacity: 0.5;
+}
+
+.bildtext {
+
+       color: white;
+       font-weight: 100;
+}
+
+.textpos {
+       width: 100%;
+       position: absolute;
+       transform: translateY(-50%);
+       text-align: center;
+       color: white;
+       top: 50%;
+}
+
+.textpos h1 {
+       font-size: 45px;
+       margin-top: 75px;
+       margin-bottom: 4px;
+}
