@@ -1,99 +1,103 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
-*{
-       margin: 0px;
-       padding: 0px;
-       box-sizing: border-box;
-       font-family: 'Abril Fatface';
-}
-body {
 
-       background-color: black;
+ .bildbox {
+     margin-top: 3%;
+    margin-left: 50%; 
+    height: 550px;
 }
 
-nav {
-       display: inline;
-       width: 70%;
-       height: 35px;
-       line-height: 75px;
-       padding: 0px 200px;
-       position: fixed;
-       margin-left: 350px;
-       margin-top: 5px;
+.knapp  {
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 34px;
+    background-color: rgb(105, 127, 235);
+   
+    
+}
+.kolv {
+    position: absolute;
+    right: 350px;
+    top: 250px;
 }
 
-.logo {
-       font-size: 45px;
-       font-weight: bold;
-       color: white;
-       text-transform: uppercase;´
-       letter-spacing: 1.5px;
-       cursor: pointer;
 
-       display: inline;
-}
-.logobild {
-       width: 150px;
-       margin-top: 25px;
-       margin-left: 20px;
-}
-.tabs{
-       display: flex;
-       align-items: center;
-       justify-content: space-between;
-       flex-wrap: wrap;
-       list-style: none;
-       
-}
+.textbox {
+    position: absolute;
+    left: 240px;
+    width: 380px;
+    border: 5px solid black;
+    padding: 7px;
+    bottom: 60px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
 
-.header {
-       background-image: linear-gradient(red, rgb(255, 0, 0)); 
+}   
+.hidden {
+display: none;
 }
+.sidopanelstext {
+    position: absolute;
+    margin: 0%;
+    height: 98%;
+    left: 70px;
+    }
 
-.tabs li a 
-{
-       font-family:'Abril Fatface';
-       color: rgb(0, 0, 0);
-       text-decoration: none;
-       padding-left: 3px;
-       padding-right: 3px;
-       border-radius: 50px;
-       /* background-color: gray; */
-       border: 1.8px solid rgb(0, 0, 0);
-       padding: 3px 10px;
-}
-.mainbild {
 
-align-items: center;
-justify-content: center;
-display: flex;
-display: block;
-width: 100vw;
-position: fixed;
-z-index: -1;
-margin-top: -100px;
-background-color: black;
-opacity: 0.5;
+.sidopanel{
+    position: fixed; 
+    background-color: rgb(166, 163, 163);
+    width: 200px;
+    height: 3000px;
+    left: 0;
+    top: 0;
 }
 
-.bildtext {
 
-       color: white;
-       font-weight: 100;
+
+.tillbakaknapp {
+    position: absolute;
+    background-color: black;
 }
+.tillbakatext {
+    position: absolute;
+    color: white;
+    top: 2px;
+    left: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-.textpos {
-       width: 100%;
-       position: absolute;
-       transform: translateY(-50%);
-       text-align: center;
-       color: white;
-       top: 50%;
 }
+.rubbrikv8 {
+    position: absolute;
+    color: black;
+    left: 250px;
+    top: 54px;
+    font-size: 35px;
+    border: 3px solid black;
+    padding: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-.textpos h1 {
-       font-size: 45px;
-       margin-top: 75px;
-       margin-bottom: 4px;
+}
+.rubbrikkolv {
+    position: absolute;
+    color: black;
+    left: 240px;
+    top: 25 px;
+    font-size: 35px;
+    border: 3px solid black;
+    padding: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.kolvtext{
+position: absolute;
+color: rgb(255, 255, 255);
+text-shadow: 2px 1px 1px rgb(0, 51, 255);
+left: 755px;
+top: 226px;
+font-size: 40px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
